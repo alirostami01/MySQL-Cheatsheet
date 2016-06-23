@@ -5,7 +5,7 @@ MySQL Cheat Sheet
 
 ورود به ناحیه کاربری دیتابیس:  mysql -u [username] -p
 
-ورود به دیتابیس با نام کابیس:  mysql -u [username] -p [database]
+ورود به ناحیه کاربری با نام و دیتابیس:  mysql -u [username] -p [database]
 
 مشاهده دیتابیس ها :  show databases;
 
