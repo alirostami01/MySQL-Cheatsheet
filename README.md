@@ -31,6 +31,14 @@ MySQL Cheat Sheet
 
 انتخاب قسمتی هایی از یک رکورد:  SELECT [column], [another-column] FROM [table];
 
+بدست آوردن تعداد رکوردهای یک جدول:  SELECT COUNT([column]) FROM [table];
+
+انتخاب رکوردها با مقادیر مورد نظر:  [value]: SELECT * FROM [table] WHERE [column] LIKE '%[value]%';
+
+انتخاب رکوردها با مقادیر که آغز می گردد:   [value]: SELECT * FROM [table] WHERE [column] LIKE '[value]%';
+
+انتخاب جداول با مقادیر با رنج اصطلاعات درخواستی :  SELECT * FROM [table] WHERE [column] BETWEEN [value1] and [value2];
+
 
 
 
