@@ -17,6 +17,12 @@ MySQL Cheat Sheet
 
 نشان دادن جزئیات یک جدول دیتابیس :  describe [table];
 
+ساختن یک جدول با ستون :  CREATE TABLE [table] ([column] VARCHAR(120), [another-column] DATETIME);
+
+ایجاد ستون بر روی جدول :  ALTER TABLE [table] ADD COLUMN [column] VARCHAR(120);
+
+ایجاد یک ستون با یک آی دی منحصر به فرد و غیر تکراری :   ALTER TABLE [table] ADD COLUMN [column] int NOT NULL AUTO_INCREMENT PRIMARY KEY;
+
 
 
 
