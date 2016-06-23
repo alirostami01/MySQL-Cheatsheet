@@ -21,9 +21,9 @@ MySQL Cheat Sheet
 
 ایجاد ستون بر روی جدول :  ALTER TABLE [table] ADD COLUMN [column] VARCHAR(120);
 
-ایجاد یک ستون با یک آی دی منحصر به فرد و غیر تکراری :   ALTER TABLE [table] ADD COLUMN [column] int NOT NULL AUTO_INCREMENT PRIMARY KEY;
+ایجاد یک ستون با یک آی دی منحصر به فرد و غیر تکراری :   `ALTER TABLE [table] ADD COLUMN [column] int NOT NULL AUTO_INCREMENT PRIMARY KEY;`
 
-ایجاد یگ رکورد: INSERT INTO [table] ([column], [column]) VALUES ('[value]', [value]');
+ایجاد یگ رکورد: `SELECT COUNT([column]) FROM [table];`
 
 انتخاب رکورد: SELECT * FROM [table];
 
