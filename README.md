@@ -17,7 +17,7 @@ MySQL Cheat Sheet
 
 نشان دادن جزئیات یک جدول دیتابیس :  describe [table];
 
-ساختن یک جدول با ستون :  CREATE TABLE [table] ([column] VARCHAR(120), [another-column] DATETIME);
+ساختن یک جدول با ستون :  `CREATE TABLE [table] ([column] VARCHAR(120), [another-column] DATETIME);`
 
 ایجاد ستون بر روی جدول :  ALTER TABLE [table] ADD COLUMN [column] VARCHAR(120);
 
