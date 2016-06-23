@@ -25,6 +25,14 @@ MySQL Cheat Sheet
 
 ایجاد یگ رکورد: INSERT INTO [table] ([column], [column]) VALUES ('[value]', [value]');
 
+انتخاب رکورد: SELECT * FROM [table];
+
+نشان دادن جزئیات یک جدول دیتابیس :  EXPLAIN SELECT * FROM [table];
+
+انتخاب قسمتی هایی از یک رکورد:  SELECT [column], [another-column] FROM [table];
+
+
+
 
 
 
