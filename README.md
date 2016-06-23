@@ -56,6 +56,17 @@ MySQL Cheat Sheet
  خروج : exit;
  
  
+توابع مربوط به کاربران
+
+ لیست کاربران : SELECT User,Host FROM mysql.user;
+ 
+ ایحاد یک کاربر جدید :  CREATE USER 'username'@'localhost' IDENTIFIED BY 'password';
+ 
+ ایجاد دسترسی کاربر به یک دیتابیس :  GRANT ALL ON database.* TO 'user'@'localhost';
+ 
+ 
+ 
+ 
 
 
 
