@@ -37,7 +37,27 @@ MySQL Cheat Sheet
 
 انتخاب رکوردها با مقادیر که آغز می گردد:   [value]: SELECT * FROM [table] WHERE [column] LIKE '[value]%';
 
-انتخاب جداول با مقادیر با رنج اصطلاعات درخواستی :  SELECT * FROM [table] WHERE [column] BETWEEN [value1] and [value2];
+انتخاب رکوردها با رنج مورد نظر  :  SELECT * FROM [table] WHERE [column] BETWEEN [value1] and [value2];
+
+به روز رسانی مقادیر یه دیتابیس :  UPDATE [table] SET [column] = '[updated-value]' WHERE [column] = [value];
+
+پاک کردن مقادیر یک رکورد :  DELETE FROM [table] WHERE [column] = [value];
+
+پاک نمودن ستون های یک جدول  :  ALTER TABLE [table] DROP COLUMN [column];
+
+ پا نمودن جداول:  DROP TABLE [table];
+ 
+ پاک نمودن دیتابیس :  DROP DATABASE [database];
+ 
+ خروجی گرفتن از یک دیتابیس به صورت بکاپ :   mysqldump -u [username] -p [database] > db_backup.sql
+ 
+ وارد نمودن اطلاعات یک دیتابیس : mysql -u [username] -p -h localhost [database] < db_backup.sql
+ 
+ خروج : exit;
+ 
+ 
+
+
 
 
 
