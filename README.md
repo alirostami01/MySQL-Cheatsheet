@@ -2,7 +2,7 @@
 
 ## دستورات 
 
-ورود به ناحیه کاربری دیتابیس:  mysql -u [username] -p
+ورود به ناحیه کاربری دیتابیس:  'mysql -u [username] -p'
 
 ورود به ناحیه کاربری با نام و دیتابیس: mysql -u [username] -p [database]
 
