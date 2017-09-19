@@ -44,7 +44,7 @@
 
 پاک نمودن ستون های یک جدول : `ALTER TABLE [table] DROP COLUMN [column];`
 
-پا نمودن جداول: `DROP TABLE [table];`
+پاک نمودن جداول: `DROP TABLE [table];`
 
 پاک نمودن دیتابیس : `DROP DATABASE [database];`
 
