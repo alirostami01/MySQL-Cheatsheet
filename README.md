@@ -1,6 +1,6 @@
-#MySQL Cheat Sheet
+# MySQL Cheat Sheet
 
-دستورات##
+## دستورات 
 
 ورود به ناحیه کاربری دیتابیس: --- mysql -u [username] -p ---
 
