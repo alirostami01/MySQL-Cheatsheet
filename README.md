@@ -1,4 +1,4 @@
-# MySQL Cheat Sheet
+# برگه تقلب دیتابیس
 
 ## دستورات 
 
@@ -34,7 +34,7 @@
 
 انتخاب رکوردها با مقادیر مورد نظر: `[value]: SELECT * FROM [table] WHERE [column] LIKE '%[value]%';`
 
-انتخاب رکوردها با مقادیر که آغز می گردد: `[value]: SELECT * FROM [table] WHERE [column] LIKE '[value]%';`
+انتخاب رکوردها با مقادیر که آغاز می گردد: `[value]: SELECT * FROM [table] WHERE [column] LIKE '[value]%';`
 
 انتخاب رکوردها با رنج مورد نظر : `SELECT * FROM [table] WHERE [column] BETWEEN [value1] and [value2];`
 
