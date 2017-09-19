@@ -22,7 +22,7 @@
 
 ایجاد یک ستون با یک آی دی منحصر به فرد و غیر تکراری : ALTER TABLE [table] ADD COLUMN [column] int NOT NULL AUTO_INCREMENT PRIMARY KEY;
 
-ایجاد یگ رکورد: SELECT COUNT([column]) FROM [table];
+ایجاد یک رکورد: INSERT INTO [table] ([column], [column]) VALUES ('[value]', [value]');
 
 انتخاب رکورد: SELECT * FROM [table];
 
